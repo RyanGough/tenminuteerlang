@@ -14,10 +14,12 @@ supervisor() ->
 helloworld() ->
     receive
         hello ->
-            io:format("hello, world!~n"),
-            helloworld();
+            io:format("hello, world!~n");
         {divide, Dividend, Divisor} ->
-            io:format("the result is: ~p~n", [Dividend / Divisor]),
-            helloworld()
-    end.
-    
+            io:format("the result is: ~p~n", [Dividend / Divisor]);
+        {say, Something} ->
+            io:format("ahem - ~p~n", [Something]);
+        _Other ->
+            io:format("WAT?~n")
+    end,
+    helloworld().

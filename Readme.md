@@ -1,6 +1,6 @@
 # Erlang in Ten Minutes
 
-I recently did a lightning talk at the [XP Manchester](http://xpmanchester.wordpress.com/) user group on the subject of Erlang. I'm pretty new to the language myself but am really loving it and was hoping I could pass on that enthusiasm to others. The talks were recorded and are available [here](http://xpmanchester.wordpress.com/2014/07/11/lightning-talk-videos/) but it's hard to follow the code on screen so I said I would stick it up here.
+I recently did a lightning talk at the [XP Manchester](http://xpmanchester.wordpress.com/) user group on the subject of Erlang. I'm pretty new to the language myself but am really loving it and was hoping I could pass on that enthusiasm to others. The talks were recorded and are available [here](http://xpmanchester.wordpress.com/2014/07/11/lightning-talk-videos/) but I said I would share the code as well as it's hard to follow on screen.
 
 There are 3 revisions of the demo.erl file in this repo, which correspond to the 3 demos in the talk, although all the demos can be run from the final version of the code. I won't repeat the code in this readme, have a look in the demo.erl file, but I will show some snippets of the code I ran from the shell to exercise the code.
 
